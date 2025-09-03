@@ -1,36 +1,50 @@
-# 💬 Chat Application (Mobile + Server)
 
-A modern **real-time chat application** with:  
-- 📱 **Mobile App** (React Native + Expo)  
-- ⚡ **Backend Server** (Node.js + Express + Socket.io)  
+# 💬 Chat Application (React Native + Node.js + Socket.io)
 
-This repository contains **mobile client code**, and links/setup for the **server**.
-
----
-
-![React Native](https://img.shields.io/badge/React%20Native-20232A?logo=react&logoColor=61DAFB)
-![Expo](https://img.shields.io/badge/Expo-1B1F23?logo=expo&logoColor=white)
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?logo=typescript&logoColor=white)
-![Node.js](https://img.shields.io/badge/Node.js-43853D?logo=node.js&logoColor=white)
-![Socket.io](https://img.shields.io/badge/Socket.io-black?logo=socket.io&logoColor=white)
-![License](https://img.shields.io/badge/License-MIT-green)
+This is a **real-time chat application** built with:
+- **Mobile App** → React Native + Expo  
+- **Backend Server** → Node.js + Express + Socket.io  
 
 ---
 
-## ✨ Features
-- 🔐 User authentication (Login / Signup)
-- ⚡ Real-time messaging with WebSockets
-- 🎨 Modern and colorful UI (Noupe-inspired)
-- 📱 Cross-platform: Android & iOS (Expo)
-- 🌐 Simple Node.js backend with Socket.io
+## 🚀 Features
+- User registration & login (dummy / local DB for now)
+- Real-time messaging using **Socket.io**
+- Clean & modern **UI (light theme with green/blue accents)**
+- Footer branding: `Build by Mohit`
+- Project structured for easy extension
 
 ---
 
-## ⚙️ Setup
+## 📂 Project Structure
+chat-app/
+│
+├── chat-server/ # Backend (Node.js + Express + Socket.io)
+│ ├── server.js
+│ ├── package.json
+│ └── .env.example
+│
+└── chat-mobile/ # Frontend (React Native + Expo)
+├── app/ # Screens & routes
+├── package.json
+└── .env.example
 
-### 1. Clone repositories
+---
 
-Mobile app:
+## 🔧 Setup Instructions
+
+### 1️⃣ Prerequisites
+- [Node.js LTS](https://nodejs.org/) installed (`node -v`)
+- [npm](https://www.npmjs.com/) installed (`npm -v`)
+- [Git](https://git-scm.com/downloads) installed
+- [Expo Go App](https://expo.dev/client) installed on your mobile (Android/iOS)
+
+---
+
+### 2️⃣ Clone Repositories
 ```bash
-git clone https://github.com/MOHIT82734/chat-mobile.git
-cd chat-mobile
+# Clone backend
+git clone https://github.com/MOHIT82734/chat-server.git
+cd chat-server
+✨ Credits
+Build by Mohit 🚀
